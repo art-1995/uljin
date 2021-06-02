@@ -1,0 +1,2238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <title>Document</title>
+
+    <!--제이쿼리-->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
+
+    <!-- 제이쿼리 소스 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!-- swiper slider 소스 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+    <!--slick slider 소스-->
+    <script src="./js/slick.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css">
+
+    <!--내가만든-->
+    <script src="./js/js.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <div class="all-wrap">
+        <div class="goto-tp-btn">
+            <img src="./img/up-btn.png" alt="업버튼">
+        </div>
+        <div class="top-wrap">
+            <div class="top con row">
+
+                <p class="skip-nav cell"><a href="#">본문 바로가기</a></p>
+                <ul class="m-menu">
+                    <li><a href="#">로그인</a></li>
+                    <li><a href="#">Language
+                            <img src="./img/arr_icon_w.png" alt="화살표"></a>
+                        <ul class="click-list">
+                            <li><a href="#">ENGLISH</a></li>
+                            <li><a href="#">中國語</a></li>
+                            <li><a href="#">日本語</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">주요사이트 열기
+                            <img src="./img/arr_icon_w.png" alt="화살표"></a>
+                        <ul class="click-list click-max">
+                            <li><a href="#">문화관광</a></li>
+                            <li><a href="#">울진군청</a></li>
+                            <li><a href="#">군수실</a></li>
+                            <li><a href="#">울진군의회</a></li>
+                            <li><a href="#">산하기관</a></li>
+                            <li><a href="#">관련사이트</a></li>
+                            <li><a href="#">통합예약시스템</a></li>
+                            <li><a href="#">울진군트위터</a></li>
+                            <li><a href="#">울진군페이스북</a></li>
+                            <li><a href="#">울진군블로그</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="c-menu">
+                    <li class="first cell"><a href="#">문화관광</a></li>
+                    <li class="cell"><a href="#">울진군청</a></li>
+                    <li class="cell"><a href="#">군수실</a></li>
+                    <li class="cell"><a href="#">울진군의회</a></li>
+                    <li class="arr cell"><a href="#">산하기관
+                            <img src="./img/arr_icon_w.png" alt="화살표"></a>
+                        <ul class="click-list">
+                            <li><a href="#">농업기술센터</a></li>
+                            <li><a href="#">보건소</a></li>
+                            <li><a href="#">맑은물사업소</a></li>
+                            <li><a href="#">시설관리사업소</a></li>
+                            <li><a href="#">체육진흥사업소</a></li>
+                        </ul>
+                    </li>
+                    <li class="arr cell"><a href="#">관련사이트
+                            <img src="./img/arr_icon_w.png" alt="화살표"></a>
+                        <ul class="click-list">
+                            <li><a href="#">왕파천공원</a></li>
+                            <li><a href="#">울진군청소년수련관</a></li>
+                            <li><a href="#">종합복지회관</a></li>
+                            <li><a href="#">구속곡자연휴양림</a></li>
+                            <li><a href="#">과학체험관</a></li>
+                            <li><a href="#">문화예술화단</a></li>
+                            <li><a href="#">연호문화센터</a></li>
+                        </ul>
+                    </li>
+                    <li class="cell"><a href="#">통합예약시스템</a></li>
+                    <li class="cell-r"><a href="#">울진군 트위터<img src="./img/tsns_icon_tww.png" alt="울진군 트위터"></a></li>
+                    <li class="cell-r"><a href="#">울진군 페이스북<img src="./img/tsns_icon_fb.png" alt="울진군 페이스북"></a></li>
+                    <li class="cell-r"><a href="#">울진군 네이버<img src="./img/tsns_icon_naver.png" alt="울진군 트위터"></a></li>
+                </ul>
+            </div>
+            <div class="m-menu-back"></div>
+        </div>
+
+        <header class="header">
+            <div class="header-wrap">
+                <div class="logo">
+                    <a href="#"><img src="./img/logo.png" alt="울진문화관광로고"></a>
+                </div>
+                <div class="menu">
+                    <div class="item-bottom-line"></div>
+                    <ul class="main-menu row">
+                        <li class="menu-1 cell a1">
+                            <a href="#">이야기하다</a>
+                            <div class="hover-menu list-1 row">
+                                <div class="img-menu-wrap cell">
+                                    <div class="img-menu">
+                                        <img src="./img/summary_title1.png" alt="울진,이야기하다">
+                                    </div>
+                                </div>
+                                <div class="menu-2 cell">
+                                    <ul class="menu-2-list">
+                                        <li class="menu-2-title menu-2-h row"><a href="#">
+                                                <p>울진STORY</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>울진에서 힐링</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>명소찾아 삼만리</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>색다른 축제,체험</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>확트인 바다,풍경</p>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>추천여행 울진!</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>권역별 추천코스</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>일정별 추천코스</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>드라이브 코스</p>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-2-title"><a href="#">
+                                                <p>울진군 사이버투어</p>
+                                                <div class="menu-2-img"></div>
+                                            </a>
+                                        </li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>울진 여행 스토리VOD</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>English</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p class="lg">中國語</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p class="lg">日本語</p>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-1 dot cell a2"><a href="#">둘러보다</a>
+                            <div class="hover-menu list-2 row">
+                                <div class="img-menu-wrap cell">
+                                    <div class="img-menu">
+                                        <img src="./img/summary_title2.png" alt="울진,둘러보다">
+                                    </div>
+                                </div>
+                                <div class="menu-2 cell">
+                                    <ul class="menu-2-list">
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>울진명소</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>전체</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>자연/사찰</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>전시/관람</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>해수욕장/항구</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>휴양/온천</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>공원/시설</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>레저/트레킹</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>농어촌체험</p>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-1 dot cell a3"><a href="#">즐겨보다</a>
+                            <div class="hover-menu list-3 row">
+                                <div class="img-menu-wrap cell">
+                                    <div class="img-menu">
+                                        <img src="./img/summary_title3.png" alt="울진,즐겨보다">
+                                    </div>
+                                </div>
+                                <div class="menu-2 cell">
+                                    <ul class="menu-2-list">
+                                        <li class="menu-2-title"><a href="#">
+                                                <p>울진대게와 붉은대게 축제</p>
+                                                <div class="menu-2-img"></div>
+                                            </a>
+                                        </li>
+                                        <li class="menu-2-title"><a href="#">
+                                                <p>울진금강송 송이축제</p>
+                                                <div class="menu-2-img"></div>
+                                            </a>
+                                        </li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>평해남대천단오제</p>
+                                            </a>
+                                        </li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>성류문화제</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list menu-2-2-w cell"><a href="#">
+                                                        <p>축제개요</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list menu-2-2-w cell"><a href="#">
+                                                        <p>행사일정</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list menu-2-2-w cell"><a href="#">
+                                                        <p>주요행사</p>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>족변항 수산물축제</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list menu-2-2-w cell"><a href="#">
+                                                        <p>축제개요</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list menu-2-2-w cell"><a href="#">
+                                                        <p>행사일정</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list menu-2-2-w cell"><a href="#">
+                                                        <p>주요행사</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list menu-2-2-w cell"><a href="#">
+                                                        <p>행사배치도</p>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-1 dot cell a4"><a href="#">역사/문화</a>
+                            <div class="hover-menu list-4 row">
+                                <div class="img-menu-wrap cell">
+                                    <div class="img-menu">
+                                        <img src="./img/summary_title4.png" alt="울진,역사/문화">
+                                    </div>
+                                </div>
+                                <div class="menu-2 cell">
+                                    <ul class="menu-2-list">
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>이달의 문화행사</p>
+                                            </a>
+                                        </li>
+                                        <li class="menu-2-title menu-2-h row"><a href="#">
+                                                <p>울진 문화유산</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>국가지정문화재</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>도지정문화재</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>사적지</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>역사적인물</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>전설/설화</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>특별한 이야기</p>
+                                                        <div class="menu-2-img"></div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>마을 이야기</p>
+                                                        <div class="menu-2-img"></div>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>디지털울진문화대전</p>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-2-title menu-2-h row"><a href="#">
+                                                <p>울진 유교문화</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>지역별 유적/인물</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>멀티미디어자료</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>유적체험관광</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>유교문화연표</p>
+                                                        <div class="menu-2-img"></div>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>울진유교넷</p>
+                                                        <div class="menu-2-img"></div>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-2-title menu-2-h row"><a href="#">
+                                                <p>울진 음식문화</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>향토음식</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>웰빙음식</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>대게음식</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>금강송송이음식</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>유기농매실음식</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>오징어/표고버섯음식</p>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>울진군지</p>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-1 dot menu-hide cell a5"><a href="#">맛집/숙박/특산물</a>
+                            <div class="hover-menu list-5 row">
+                                <div class="img-menu-wrap cell">
+                                    <div class="img-menu">
+                                        <img src="./img/summary_title5.png" alt="울진,맛집/숙박">
+                                    </div>
+                                </div>
+                                <div class="menu-2 cell">
+                                    <ul class="menu-2-list">
+                                        <li class="menu-2-title menu-2-h row"><a href="#">
+                                                <p>울진맛집</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>전체</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>위생등급업소</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>모범음식점</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>안심식당</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>으뜸음식점</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>일반음식점</p>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>숙박업소</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>전체</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>호텔/모텔/여관</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>민박/펜션</p>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>특산물</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>농산물</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>수산물</p>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-1 dot menu-hide cell a6"><a href="#">여행가이드</a>
+                            <div class="hover-menu list-6 row">
+                                <div class="img-menu-wrap cell">
+                                    <div class="img-menu">
+                                        <img src="./img/summary_title6.png" alt="울진,여행가이드">
+                                    </div>
+                                </div>
+                                <div class="menu-2 cell">
+                                    <ul class="menu-2-list">
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>공지사항</p>
+                                            </a></li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>관광안내</p>
+                                            </a>
+                                            <ul class="menu-2-2 cell">
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>1330관광안내</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>주요관광지 요금</p>
+                                                    </a></li>
+                                                <li class="menu-2-2-list cell"><a href="#">
+                                                        <p>주요관광지 전화번호</p>
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>교통안내</p>
+                                            </a></li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>관광지도</p>
+                                            </a></li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>관광안내책자신청</p>
+                                            </a></li>
+                                        <li class="menu-2-title"><a href="#">
+                                                <p>관광사진공모전</p>
+                                                <div class="menu-2-img"></div>
+                                            </a>
+                                        </li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>나의울진여행기</p>
+                                            </a></li>
+                                        <li class="menu-2-title row"><a href="#">
+                                                <p>여행갤러리</p>
+                                            </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="side-menu">
+                    <ul class="side-menu-1">
+                        <li class="side-menu-list cell"><a href="#">울진군청</a><span class="stick cell"></span></li>
+                        <li class="side-menu-list cell"><a href="#">로그인<span class="stick cell"></span></a></li>
+                        <li class="side-menu-list cell"><a href="#">사이트맵
+                            </a>
+                            <div class="ham-menu cell">
+                                <span class="ham"></span><span class="ham"></span><span class="ham"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="loupe-wrap">
+                    <div class="loupe">
+                        <a href="#"><img src="./img/loup_icon.png" alt="돋보기 아이콘"></a>
+                    </div>
+                    <div class="ham-menu cell">
+                        <span class="ham"></span><span class="ham"></span><span class="ham"></span>
+                    </div>
+                </div>
+                <div class="m-head-menu">
+                    <div class="m-head-menu-ham">
+                        <span class="ham"></span><span class="ham"></span><span class="ham"></span>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="menu-left"></div>
+                    <div class="menu">
+                        <ul class="main-menu">
+                            <li class="menu-1 a1">
+                                <a href="#">이야기하다</a>
+                                <div class="hover-menu list-1">
+                                    <div class="menu-2">
+                                        <ul class="menu-2-list">
+                                            <li class="menu-2-title menu-2-h"><a href="#">
+                                                    <p>울진STORY</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>울진에서 힐링</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>명소찾아 삼만리</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>색다른 축제,체험</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>확트인 바다,풍경</p>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>추천여행 울진!</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>권역별 추천코스</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>일정별 추천코스</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>드라이브 코스</p>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>울진군 사이버투어</p>
+                                                    <div class="menu-2-img"></div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-2-title row"><a href="#">
+                                                    <p>울진 여행 스토리VOD</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>English</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p class="lg">中國語</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p class="lg">日本語</p>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-1 a2"><a href="#">둘러보다</a>
+                                <div class="hover-menu list-2">
+                                    <div class="menu-2">
+                                        <ul class="menu-2-list">
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>울진명소</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>전체</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>자연/사찰</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>전시/관람</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>해수욕장/항구</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>휴양/온천</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>공원/시설</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>레저/트레킹</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>농어촌체험</p>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-1 dot a3"><a href="#">즐겨보다</a>
+                                <div class="hover-menu list-3 row">
+                                    <div class="menu-2">
+                                        <ul class="menu-2-list">
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>울진대게와 붉은대게 축제</p>
+                                                    <div class="menu-2-img"></div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>울진금강송 송이축제</p>
+                                                    <div class="menu-2-img"></div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>평해남대천단오제</p>
+                                                </a>
+                                            </li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>성류문화제</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list menu-2-2-w"><a href="#">
+                                                            <p>축제개요</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list menu-2-2-w"><a href="#">
+                                                            <p>행사일정</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list menu-2-2-w"><a href="#">
+                                                            <p>주요행사</p>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>족변항 수산물축제</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list menu-2-2-w"><a href="#">
+                                                            <p>축제개요</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list menu-2-2-w"><a href="#">
+                                                            <p>행사일정</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list menu-2-2-w"><a href="#">
+                                                            <p>주요행사</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list menu-2-2-w"><a href="#">
+                                                            <p>행사배치도</p>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-1 dot a4"><a href="#">역사/문화</a>
+                                <div class="hover-menu list-4">
+                                    <div class="menu-2">
+                                        <ul class="menu-2-list">
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>이달의 문화행사</p>
+                                                </a>
+                                            </li>
+                                            <li class="menu-2-title menu-2-h"><a href="#">
+                                                    <p>울진 문화유산</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>국가지정문화재</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>도지정문화재</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>사적지</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>역사적인물</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>전설/설화</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>특별한 이야기</p>
+                                                            <div class="menu-2-img"></div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>마을 이야기</p>
+                                                            <div class="menu-2-img"></div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>디지털울진문화대전</p>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-2-title menu-2-h"><a href="#">
+                                                    <p>울진 유교문화</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>지역별 유적/인물</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>멀티미디어자료</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>유적체험관광</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>유교문화연표</p>
+                                                            <div class="menu-2-img"></div>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>울진유교넷</p>
+                                                            <div class="menu-2-img"></div>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-2-title menu-2-h"><a href="#">
+                                                    <p>울진 음식문화</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>향토음식</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>웰빙음식</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>대게음식</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>금강송송이음식</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>유기농매실음식</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>오징어/표고버섯음식</p>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>울진군지</p>
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-1 dot menu-hide a5"><a href="#">맛집/숙박/특산물</a>
+                                <div class="hover-menu list-5">
+                                    <div class="menu-2">
+                                        <ul class="menu-2-list">
+                                            <li class="menu-2-title menu-2-h"><a href="#">
+                                                    <p>울진맛집</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>전체</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>위생등급업소</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>모범음식점</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>안심식당</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>으뜸음식점</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>일반음식점</p>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>숙박업소</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>전체</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>호텔/모텔/여관</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>민박/펜션</p>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>특산물</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>농산물</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>수산물</p>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-1 dot menu-hide a6"><a href="#">여행가이드</a>
+                                <div class="hover-menu list-6">
+                                    <div class="menu-2">
+                                        <ul class="menu-2-list">
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>공지사항</p>
+                                                </a></li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>관광안내</p>
+                                                </a>
+                                                <ul class="menu-2-2">
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>1330관광안내</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>주요관광지 요금</p>
+                                                        </a></li>
+                                                    <li class="menu-2-2-list"><a href="#">
+                                                            <p>주요관광지 전화번호</p>
+                                                        </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>교통안내</p>
+                                                </a></li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>관광지도</p>
+                                                </a></li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>관광안내책자신청</p>
+                                                </a></li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>관광사진공모전</p>
+                                                    <div class="menu-2-img"></div>
+                                                </a>
+                                            </li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>나의울진여행기</p>
+                                                </a></li>
+                                            <li class="menu-2-title"><a href="#">
+                                                    <p>여행갤러리</p>
+                                                </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <div class="section1">
+            <div class="main-visual">
+                <div class="swiper-container swiper-container1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/visual_01.jpg" alt="하늘 바닷길">
+                            <div class="now-here row">
+                                <span></span>
+                                <div class="slide-txt row">
+                                    <p class="">바다를 가로지르는 스릴 넘치는 하늘 바닷길</p>
+                                    <h1 class="cell">등기산공원 / 스카이워크</h1>
+                                    <a href="#" class="cell">스토리텔링</a>
+                                    <a href="#" class="cell">사이버투어</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/visual_02.jpg" alt="왕피천 케이블카">
+                            <div class="now-here row">
+                                <span></span>
+                                <div class="slide-txt">
+                                    <p>하늘에서 즐기는 넘실대는 푸른 동해바다의 전경</p>
+                                    <h1 class="cell">왕피천케이블카</h1>
+                                    <a href="#" class="cell">스토리텔링</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/visual_03.jpg" alt="죽변 드라마세트장">
+                            <div class="now-here row">
+                                <span></span>
+                                <div class="slide-txt">
+                                    <p>서정적인 풍경이 한폭의 그림과 같은 풍경속으로</p>
+                                    <h1 class="cell">죽변드라마세트장</h1>
+                                    <a href="#" class="cell">스토리텔링</a>
+                                    <a href="#" class="cell">사이버투어</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/visual_04.jpg" alt="금강 소나무 숲길">
+                            <div class="now-here row">
+                                <span></span>
+                                <div class="slide-txt">
+                                    <p>500년 금강송으로 뒤덮인 힐링과 치유의 자연궁전</p>
+                                    <h1 class="cell">금강소나무숲길</h1>
+                                    <a href="#" class="cell">스토리텔링</a>
+                                    <a href="#" class="cell">사이버투어</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/visual_05.jpg" alt="불영사 계곡">
+                            <div class="now-here row">
+                                <span></span>
+                                <div class="slide-txt">
+                                    <p>신라 진덕여왕이 감탄한 명승 제6호 적송의 군락지</p>
+                                    <h1>불영사계곡</h1>
+                                </div>
+                            </div>
+                        </div>
+                        ...
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <div class="layout-box">
+                    <h2>숨쉬는 땅 여유의 바다</h2>
+                    <div class="i-box">
+                        <img src="./img/story-icon.png" alt="울진스토리">
+                    </div>
+                </div>
+                <div class="widget widget_time row">
+                    <p class="current_day"></p>
+                    <p class="current_time">
+                        <span class="hour"></span>
+                        <span class="minute"></span>
+                    </p>
+                    <div class="current_weather-img">
+                        <img src="./img/weather01.png" alt="날씨">
+                    </div>
+                    <div class="current_weather">
+                        <span class="weather">15<div class="dot"></div>&nbsp;C 비</span>
+                    </div>
+                    <div class="tide row">
+                        <a href="#"><i class="cell"><img src="./img/tide-icon.png" alt="조석정보 아이콘">
+                            </i>
+                            <p class="cell">조석정보</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="img-layout">
+                <div class="img-box"><img src="./img/ir-obj.png" alt="맞춤 관광지 그림아이콘"></div>
+                <a href="#">
+                    <img src="./img/ir-main-bubble.png" alt="">
+                    <p>맞춤,관광지</p>
+                    <span>맞춤형 울진관광 추천 서비스</span>
+                </a>
+                <div class="m-icon"><img src="./img/m-travl-ic.png" alt="맞춤 관광지"></div>
+            </div>
+        </div>
+
+        <div class="section2">
+            <div class="layout">
+                <div class="you-tube con">
+                    <div class="you-tube-title">
+                        <h6>여행소식을 전하는 생생정보 플랫폼</h6>
+                        <img src="./img/youtube-title.png" alt="유튜브 속 울진">
+                    </div>
+                </div>
+                <div class="you-tube-box-wrap">
+                    <div class="you-tube-box">
+                        <div class="you-tube-slide slider-box-1">
+
+                            <div class="swiper-container swiper-container2">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" data-no="1" data-text="친절한 울진 사용설명서 왕피천케이블카"
+                                        title="YouTube video player" data-thumb-img-url="./img/y0.jpg" alt="왕피천케이블카">
+                                        <div class="item">
+                                            <iframe class="youtube" width="655" height="370"
+                                                src="https://www.youtube.com/embed/ByqRpJZwXLE" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen>
+                                            </iframe>
+                                            <strong class="tit">친절한 울진 사용설명서 왕피천케이블카</strong>
+                                            <p>#울진 #힐링여행 #왕피천케이블카</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" data-no="2" data-text="친절한 울진 사용설명서 금강송에코리움편"
+                                        data-thumb-img-url="./img/y0.jpg" alt="금강송에코리움">
+                                        <div class="item">
+                                            <iframe class="youtube" width="655" height="370"
+                                                src="https://www.youtube.com/embed/951I_FXZ2Kk" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                            <strong class="tit">친절한 울진 사용설명서 금강송에코리움편</strong>
+                                            <p>#울진 #힐링여행 #금강송숲</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" data-no="3" data-text="울진 왕피천케이블카, 국립해양과학관"
+                                        data-thumb-img-url="./img/y2.jpg" alt="국립해양과학관">
+                                        <div class="item">
+                                            <iframe class="youtube" width="655" height="370"
+                                                src="https://www.youtube.com/embed/DK4guJtCEys" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                            <strong class="tit">울진 왕피천케이블카, 국립해양과학관</strong>
+                                            <p>#케이블카 #해양과학관 #새로운</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" data-no="4" data-text="울진 이현세 만화거리와 열차카페"
+                                        data-thumb-img-url="./img/y3.jpg" alt="열차카페">
+                                        <div class="item">
+                                            <iframe class="youtube" width="655" height="370"
+                                                src="https://www.youtube.com/embed/kQx1ZpZ59Ro" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                            <strong class="tit">울진 이현세 만화거리와 열차카페</strong>
+                                            <p>#감성여행 #추억여행 #이색</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" data-no="5" data-text="마음을 위로하는 울진여행"
+                                        data-thumb-img-url="./img/y4.jpg" alt="울진여행">
+                                        <div class="item">
+                                            <iframe class="youtube" width="655" height="370"
+                                                src="https://www.youtube.com/embed/08jaorJX8Os" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                            <strong class="tit">마음을 위로하는 울진여행</strong>
+                                            <p>#울진 #힐링여행 #금강송숲</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide" data-no="6" data-text="숨쉬는 땅, 여유의 바다 울진"
+                                        data-thumb-img-url="./img/y4.jpg" alt="울진바다">
+                                        <div class="item">
+                                            <iframe class="youtube" width="655" height="370"
+                                                src="https://www.youtube.com/embed/cHoK4karAzA" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                            <strong class="tit">숨쉬는 땅, 여유의 바다 울진</strong>
+                                            <p>#경북 #울진 #여행</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="arrow-box">
+                                    <div class="swiper-button-next button">
+                                        <div class="arrow"><img src="./img/arrow-r.png" alt="화살표 아이콘"></div>
+                                        <div class="swiper-button-next-bottom-img"></div>
+                                        <div class="swiper-button-next-bottom-text"></div>
+                                    </div>
+                                    <div class="swiper-button-prev button">
+                                        <div class="arrow"><img src="./img/arrow-l.png" alt="화살표 아이콘"></div>
+                                        <div class="swiper-button-prev-bottom-img"></div>
+                                        <div class="swiper-button-prev-bottom-text"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hot-place con">
+                    <div class="h-place-logo">
+                        <h6>다양한 울진관광명소를 한눈에!</h6>
+                        <img src="./img/hot-place-icon.png" alt="울진 핫 플레이스">
+                    </div>
+                    <div class="h-p-list">
+                        <div class="p-list">
+                            <p>자연/사찰</p>
+                            <div class="list">
+                                <img width="37px" src="./img/place-ex-icon1.png" alt="플레이스 아이콘">
+                                <strong>10</strong>
+                            </div>
+                        </div>
+                        <div class="p-list">
+                            <p>전시/관람</p>
+                            <div class="list list-color">
+                                <img width="37px" src="./img/place-ex-icon2.png" alt="플레이스 아이콘">
+                                <strong>11</strong></div>
+                        </div>
+                        <div class="p-list">
+                            <p>해수욕장/항구</p>
+                            <div class="list">
+                                <img width="22px" src="./img/place-ex-icon3.png" alt="플레이스 아이콘" class="size-c">
+                                <strong>07</strong></div>
+                        </div>
+                        <div class="p-list">
+                            <p>휴양/온천</p>
+                            <div class="list list-color">
+                                <img src="./img/place-ex-icon4.png" alt="플레이스 아이콘" class="size-c">
+                                <strong>05</strong></div>
+                        </div>
+                        <div class="p-list">
+                            <p>공원/시설</p>
+                            <div class="list">
+                                <img width="30px" src="./img/place-ex-icon5.png" alt="플레이스 아이콘">
+                                <strong>15</strong></div>
+                        </div>
+                        <div class="p-list">
+                            <p>레저/트래킹</p>
+                            <div class="list list-color">
+                                <img src="./img/place-ex-icon6.png" alt="플레이스 아이콘">
+                                <strong>10</strong></div>
+                        </div>
+                        <div class="p-list">
+                            <p>농어촌체험</p>
+                            <div class="list">
+                                <img src="./img/place-ex-icon7.png" alt="플레이스 아이콘">
+                                <strong>08</strong></div>
+                        </div>
+                    </div>
+                    <div class="map-box">
+                        <ul class="tab_title">
+                            <li class="on t-type">북부권<span>삼척·강릉 출발</span></li>
+                            <li class="t-type">서부권<span>영주·봉화출발</span></li>
+                            <li class="t-type">남부권<span>영덕·포항출발</span></li>
+                            <li class="t-type">드라이브<span>드라이브 코스</span></li>
+                        </ul>
+                        <div class="place-box tab_cont">
+                            <div class="item on">
+                                <strong>북부권<p>삼척·강릉 출발</p></strong>
+                                <ul>
+                                    <li>
+                                        <a href="#">덕구보양온천
+                                            <img src="./img/sub_1/sub1.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">죽변항(폭풍속으로 드라마 세트장)
+                                            <img src="./img/sub_1/sub2.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">봉평신라비(봉평해수욕장)
+                                            <img src="./img/sub_1/sub3.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">연호정
+                                            <img src="./img/sub_1/sub4.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">민물고기생태체험관
+                                            <img src="./img/sub_1/sub5.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">왕피천공원
+                                            <img src="./img/sub_1/sub6.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">성류굴
+                                            <img src="./img/sub_1/sub7.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">망양정(망양정해수욕장)
+                                            <img src="./img/sub_1/sub8.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">해안도로(촛대바위)
+                                            <img src="./img/sub_1/sub9.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">해월헌
+                                            <img src="./img/sub_1/sub10.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">월송정
+                                            <img src="./img/sub_1/sub11.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">후포항
+                                            <img src="./img/sub_1/sub12.png" alt="장소 사진">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="more-btn">
+                                    <p>자세히 보기</p>
+                                </a>
+                                <div class="item-img-box">
+                                    <div class="item-img-box">
+                                        <img src="../uljin/img/tb__01.jpg" alt="대표 여행지 사진">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <strong>서부권
+                                    <p>영주·봉화출발</p>
+                                </strong>
+                                <ul class="on">
+                                    <li>
+                                        <a href="#">통고산자연휴양림
+                                            <img src="./img/sub_1/sub2_1.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">울진금강소나무숲
+                                            <img src="./img/sub_1/sub2_2.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">불영사(계곡)
+                                            <img src="./img/sub_1/sub2_3.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">민물고기생태체험관
+                                            <img src="./img/sub_1/sub5.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">왕피천공원
+                                            <img src="./img/sub_1/sub6.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">성류굴
+                                            <img src="./img/sub_1/sub7.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">망양정(망양정해수욕장)
+                                            <img src="./img/sub_1/sub8.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">구수곡자연휴양림
+                                            <img src="./img/sub_1/sub2_8.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">덕구보양온천
+                                            <img src="./img/sub_1/sub1.png" alt="장소 사진">
+                                        </a><br>
+                                        →<a href="#">봉편신라비죽변항(폭풍속으로드라마세트장)
+                                            <img src="./img/sub_1/sub2.png" alt="장소 사진">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="more-btn">
+                                    <p>자세히 보기</p>
+                                </a>
+                                <div class="item-img-box">
+                                    <div class="item-img-box">
+                                        <img src="./img/tb__02.jpg" alt="대표 여행지 사진">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <strong>남부권
+                                    <p>영덕·포항출발</p>
+                                </strong>
+                                <ul class="on">
+                                    <li>
+                                        <a href="#">후포항
+                                            <img src="./img/sub_1/sub12.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">향암미술관
+                                            <img src="./img/sub_1/sub3_2.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">백암온천(백안삼)
+                                            <img src="./img/sub_1/sub3_3.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">월송정
+                                            <img src="./img/sub_1/sub11.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">해월헌
+                                            <img src="./img/sub_1/sub10.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">해안도로(촛대바위)
+                                            <img src="./img/sub_1/sub9.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">망양정
+                                            <img src="./img/sub_1/sub8.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">성류굴
+                                            <img src="./img/sub_1/sub7.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">왕피천공원
+                                            <img src="./img/sub_1/sub6.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">민물고기생태체험관
+                                            <img src="./img/sub_1/sub5.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">불영사(계곡)
+                                            <img src="./img/sub_1/sub2_3.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">울진금강소나무숲
+                                            <img src="./img/sub_1/sub2_2.png" alt="장소 사진">
+                                        </a>
+                                        →<a href="#">통고산자연휴양림
+                                            <img src="./img/sub_1/sub2_1.png" alt="장소 사진">
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="more-btn">
+                                    <p>자세히 보기</p>
+                                </a>
+                                <div class="item-img-box">
+                                    <div class="item-img-box">
+                                        <img src="./img/tb__03.jpg" alt="대표 여행지 사진">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <strong class="drive-f">드라이브 코스</strong>
+                                <ul class="on">
+                                    <li class="d-li">
+                                        <a href="#" class="d-hover row"><strong class="dr-c cell">코스
+                                                <div class="drive-dot cell">A</div>
+                                            </strong>
+                                            근남면 망양정↔덕신리 코스 ( 약 20km )</a>
+                                    </li>
+                                    <li class="d-li">
+                                        <a href="#" class="d-hover row"><strong class="dr-c cell">코스
+                                                <div class="drive-dot cell">B</div>
+                                            </strong>
+                                            후포면 후포항 ↔ 직산리 코스 (약 20km )</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="more-btn more-btn2">
+                                    <p>자세히 보기</p>
+                                </a>
+                                <div class="item-img-box">
+                                    <div class="item-img-box">
+                                        <img src="./img/tb__04.jpg" alt="대표 여행지 사진">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="map-img tab_cont">
+                            <div class="l-map on">
+                            </div>
+                            <div class="l-map">
+                            </div>
+                            <div class="l-map">
+                            </div>
+                            <div class="l-map">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-img-box"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section3">
+            <div class="sec3-layout">
+                <div class="sec3-box sec3-1">
+                    <div class="inner-box">
+                        <div class="txt-box txt-box1">
+                            <div class="border-txt">
+                                <span>계절보양여행</span>
+                            </div>
+                            <strong>온천관광휴양지</strong>
+                            <em>국내유일 자연용출온천으로 유명한 울진의 온천관광특구를 소개합니다.</em>
+                            <div class="btn-box">
+                                <a href="#">덕구보양온천</a>
+                                <a href="#">백암온천</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec3-box sec3-2">
+                    <div class="inner-box">
+                        <div class="txt-box txt-box2">
+                            <div class="border-txt">
+                                <span>울진트래킹</span>
+                            </div>
+                            <strong class="color-c">금강소나무 숲길</strong>
+                            <em class="color-c">호젓하고 낭만적인 울진여행기 웰니스 가득한 여행코스를 추천해드립니다.</em>
+                            <div class="btn-box">
+                                <a href="#">통고산자연휴양림</a>
+                                <a href="#">구수곡자연휴양림</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec3-box sec3-3">
+                    <div class="inner-box">
+                        <div class="txt-box txt-box3">
+                            <div class="border-txt">
+                                <span class="color-d">일출맛집</span>
+                            </div>
+                            <strong>울진 바다</strong>
+                            <em>동해바다의 아름다운 해돋이 풍경을 만날 수 있는 울진해수욕장을 소개합니다.</em>
+                            <div class="btn-box">
+                                <a href="#">기성망양해수욕장</a>
+                                <a href="#">망양정해수욕장</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section4">
+            <div class="sec4-layout">
+                <div class="sec4-title">
+                    <div class="title-img"><img src="./img/story-title.png" alt="울진 스토리"></div>
+                    <em>이야기로 만나는 비대면(언택트) 관광</em>
+                </div>
+                <div class="story-wrap">
+                    <div class="story-main-box">
+                        <div class="left-story">
+                            <a href="#" class="scroll-t">
+                                <div class="top-img">
+                                    <img src="./img/s01.jpg" alt="">
+                                </div>
+                                <div class="b-txt-box">
+                                    <div class="story-box">
+                                        <p>명소찾아 삼만리</p>
+                                    </div>
+                                    <strong>
+                                        국립해양과학관
+                                        <em>국내 최초 해양과학 전시문화공간</em>
+                                    </strong>
+                                    <div class="more-btn">
+                                        <p>자세히 보기</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="right-story">
+                            <div class="swiper-container swiper-container3 mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="list">
+                                            <div class="box n1">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s02.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>색다른 축제,체험</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>왕피천 케이블카
+                                                                <em>자연 그대로의 명소이자 랜드마크</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n2">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s03.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>울진에서 힐링</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>평해사구습지생태공원
+                                                                <em>천혜의 자연풍경이 보이는 생태공원</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n3">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s04.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>울진에서 힐링</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>1박 2일 트래킹 코스
+                                                                <em>금강송 군락 사이를 걸으며 힐링하는 여행</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n1">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s05.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>명소찾아 삼만리</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>은어다리
+                                                                <em>바람이 되어 바다를 질주한다</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n2">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s06.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>명소찾아 삼만리</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>왕피천공원 두 번째 이야기
+                                                                <em>자연과 공존하는 왕피천공원의 안전체험관 이야기 보기</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n3">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s07.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>확트인 바다,풍경</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>죽변항 수산물 축제
+                                                                <em>죽변항에서 펼쳐지는 오감만족 즐거운 바다축제</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n1">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s08.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>확트인 바다,풍경</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>등기산공원/스카이워크
+                                                                <em>바다를 가로지르는 스릴넘치는 하늘바닷길</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n2">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s09.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>울진에서 힐링</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>금강송 테마전시관/에코리움
+                                                                <em>숲을 통한 쉼과 여유 그리고 치유가 함께 하는 곳</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n3">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s10.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>울진에서 힐링</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>울진 불영사
+                                                                <em>불영사 연못에서 만나는 부처와 나</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n1">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s11.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>확트인 바다,풍경</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>금강소나무숲길 (2코스)
+                                                                <em>가을이 스민 금강소나무숲길</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n2">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s12.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>울진에서 힐랑</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>금강소나무숲길 (4코스)
+                                                                <em>아름답지만 쓸쓸한 대왕소나무를 만나다</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n3">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s13.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>울진에서 힐링</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>금강소나무숲길 (3코스)
+                                                                <em>금강송의 생명을 느끼는 하루</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n1">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s14.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>울진에서 힐링</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>금강소나무숲길 (1코스)
+                                                                <em>옛 보부상길을 걷다</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n2">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s15.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>울진에서 힐링</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>왕피천생태탐방로(은어길)
+                                                                <em>산책로에서 느끼는 왕피천의 비경</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n3">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s16.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>울진에서 힐링</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>왕피천생태탐방로(2-1구간)
+                                                                <em>왕피천 협곡을 걸으며 마주하는 절경 그리고 절경</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n1">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s17.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>울진에서 힐링</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>왕피천생태탐방로(1-1구간)
+                                                                <em>옛 길에서 남겨진 오랜 풍경과 이야기를 만난다</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n2">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s18.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>울진에서 힐링</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>왕피천생태탐방로(1구간)
+                                                                <em>숲에서 배우는 역사와 자연의 소중함</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n3">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s19.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>울진에서 힐링</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>구수곡자연휴양림
+                                                                <em>솔바람 맡으며 숲을 걷다</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n1">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s20.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>명소찾아 삼만리</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>백암온천과 신선계곡
+                                                                <em>어느 봄날의 신선놀음</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n2">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s21.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>명소찾아 삼만리</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>덕구온천
+                                                                <em>경상북도 1호, 국민 보양온천</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n3">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s22.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>명소찾아 삼만리</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>민물고기 생태체험관
+                                                                <em>민물고기의 모든 것</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n1">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s23.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>명소찾아 삼만리</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>울진왕피천공원
+                                                                <em>자연과 공존하는 친환경 울진을 만나다</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n2">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s24.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>명소찾아 삼만리</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>성류굴
+                                                                <em>2억 5천만 년의 시간이 빚은 신비의 지하세계</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n3">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s25.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>색다른 축제,체험</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>제15회 울진금강송 송이축제
+                                                                <em>울진금강송이 빚은 천년의 향</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n1">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s26.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>색다른 축제,체험</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>제7회 울진 워터피아 페스타
+                                                                <em>청정 울진에서 즐기는 오감만족 바다축제</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n2">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s27.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>색다른 축제,체험</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>울진요트학교(요트와 윈드서핑)
+                                                                <em>바람이 되어 바다를 질주한다</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n3">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s28.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>색다른 축제,체험</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>울진 해양레포츠센터
+                                                                <em>바닷속 산책</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n1">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s29.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>색다른 축제,체험</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>울진대게와 붉은대게 축제
+                                                                <em>비단바다 후포항에서 울진대게와 놀다</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n2">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s30.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>색다른 축제,체험</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>울진 대게
+                                                                <em>진짜 대게의 맛</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n3">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s31.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>확트인 바다,풍경</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>울진바다에서 보내는 하루
+                                                                <em>멋있는 바다!맛있는 바다!바라는 바다!</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n1">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s32.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>확트인 바다,풍경</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>울진의 해수욕장과 해파랑길
+                                                                <em>울진의 바다에서 여름을 외치다</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n2">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s33.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>확트인 바다,풍경</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>후포등대와 벽화마을
+                                                                <em>관광어촌계의 샛별</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n3">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s34.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>확트인 바다,풍경</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>죽변 드라마세트장 (그리고 하트해변과 죽변등대)
+                                                                <em>바람이 되어 바다를 질주한다</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="box n1">
+                                                <a href="#">
+                                                    <div class="img-b">
+                                                        <img src="./img/s35.jpg" alt="">
+                                                    </div>
+                                                    <div class="info">
+                                                        <div class="top-title">
+                                                            <p>확트인 바다,풍경</p>
+                                                        </div>
+                                                        <div class="b-title">
+                                                            <strong>나곡바다낚시공원과'함부로 애틋하게'드라마 세트장
+                                                                <em>눈과 귀가 씻기는 청정 힐링코스</em>
+                                                            </strong>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section5">
+            <div class="wave">
+                <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 24 150 28 " preserveAspectRatio="none">
+
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 
+                       58-18 88-18s
+                       58 18 88 18 
+                       58-18 88-18 
+                       58 18 88 18
+                       v44h-352z"></path>
+                    </defs>
+
+
+                    <g class="parallax1">
+                        <use xlink:href="#gentle-wave" x="50" y="-1" fill="#86c4ea"></use>
+                    </g>
+
+                    <g class="parallax2">
+                        <use xlink:href="#gentle-wave" x="50" y="0" fill="#3375be"></use>
+                    </g>
+
+                </svg>
+            </div>
+            <div class="sec5-layout">
+                <div class="quick-menu-wrap">
+                    <div class="quick-menu">
+                        <div class="title">
+                            <small>Quick service</small>
+                            <strong>자주찾는 메뉴</strong>
+                        </div>
+                        <div class="icon-menu">
+                            <div class="icon">
+                                <a href="#">
+                                    <span>
+                                        <i class="icon-1"></i>
+                                    </span>관광안내
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="#">
+                                    <span>
+                                        <i class="icon-2"></i>
+                                    </span>음식점
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="#">
+                                    <span>
+                                        <i class="icon-3"></i>
+                                    </span>울진숙박
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="#">
+                                    <span>
+                                        <i class="icon-4"></i>
+                                    </span>관광책자신청
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="#">
+                                    <span>
+                                        <i class="icon-5"></i>
+                                    </span>관광지도다운로드
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="#">
+                                    <span>
+                                        <i class="icon-6"></i>
+                                    </span>우리고장특산품
+                                </a>
+                            </div>
+                            <div class="icon">
+                                <a href="#">
+                                    <span>
+                                        <i class="icon-7"></i>
+                                    </span>울진군지
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nother row">
+                    <div class="news cell">
+                        <div class="news-box">
+                            <strong>보도자료</strong>
+                            <p><a href="#">더보기</a></p>
+                            <ul>
+                                <li><a href="#">
+                                        <p class="ellipsis">불영계곡캠핑장 운영관리 민간위탁용역 평가결과서</p>
+                                    </a>
+                                    <span>2021-05-27</span>
+                                </li>
+                                <li><a href="#">
+                                        <p>대구·경북 관광지 연계 DGB핫플적금 안내</p>
+                                    </a>
+                                    <span>2021-05-12</span>
+                                </li>
+                                <li><a href="#">
+                                        <p>울진작은영화관 채용공고</p>
+                                    </a>
+                                    <span>2021-03-31</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="cyber-tour cell">
+                        <a href="#">
+                            <small>uljin Cybertour</small>
+                            <strong>울진 사이버투어</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="f-top">
+                <div class="f-layout row">
+                    <div class="site-wrap cell">
+                        <button class="btt1">관련사이트 <span></span></button>
+                        <div class="click-info click-info1">
+                            <ul>
+                                <li><a href="#">경북해양바이오산업연구원</a></li>
+                                <li><a href="#">울진군공무원협의회</a></li>
+                                <li><a href="#">백암온천정보화마을</a></li>
+                                <li><a href="#">울진군자원봉사센터</a></li>
+                                <li><a href="#">통고산자연휴양림</a></li>
+                                <li><a href="#">민물고기체험관</a></li>
+                                <li><a href="#">나곡1리어촌체험마을</a></li>
+                                <li><a href="#">구산리 어촌체험마을</a></li>
+                                <li><a href="#">거일1리 어촌체험마을</a></li>
+                                <li><a href="#">기성 어촌체험마을</a></li>
+                                <li><a href="#">굴구지산촌생태마을</a></li>
+                                <li><a href="#">한국해양연구원동해연구소</a></li>
+                                <li><a href="#">울진군 노인요양원</a></li>
+                                <li><a href="#">울진군의료원</a></li>
+                                <li><a href="#">전곡리 창조마을</a></li>
+                            </ul>
+                            <button class="btt1"></button>
+                        </div>
+                        <button class="btt2">읍면<span></span> </button>
+                        <div class="click-info click-info2">
+                            <ul>
+                                <li><a href="#">울진읍</a></li>
+                                <li><a href="#">평해읍</a></li>
+                                <li><a href="#">북면</a></li>
+                                <li><a href="#">금강송면</a></li>
+                                <li><a href="#">근남면</a></li>
+                                <li><a href="#">매화면</a></li>
+                                <li><a href="#">기성면</a></li>
+                                <li><a href="#">온정면</a></li>
+                                <li><a href="#">죽변면</a></li>
+                                <li><a href="#">죽변면</a></li>
+                                <li><a href="#">후포면</a></li>
+                            </ul>
+                            <button class="btt2"></button>
+                        </div>
+                    </div>
+                    <div class="banner cell">
+                        <h2>배너존</h2>
+                        <div class="btn-box">
+                            <div class="play-btn active"></div>
+                            <div class="pause-btn"></div>
+                        </div>
+                        <div class="left-arr"></div>
+                        <div class="right-arr"></div>
+                        <div class="slider-wrap">
+                            <div class="slider-contents"><a href="#" class="s-font">LAIIS내고장알리미</a></div>
+                            <div class="slider-contents"><a href="#" class="s-font">행정자치부</a></div>
+                            <div class="slider-contents"><a href="#" class="s-font">안전신문고</a></div>
+                            <div class="slider-contents"><a href="#" class="s-font">대한민국정부포털</a></div>
+                            <div class="slider-contents"><a href="#" class="s-font">부동산거래관리</a></div>
+                            <div class="slider-contents"><a href="#" class="s-font">부동산거래관리</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-bott">
+                <div class="fb-layout">
+                    <div class="qr-img">
+                        <a href="#"><img src="./img/f_qr.png" alt=""></a>
+                    </div>
+                    <ul>
+                        <li><a href="#">부서별 전화번호 안내</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이메일주소수집거부</a></li>
+                        <li><a href="#">홈페이지개선의견</a></li>
+                        <li><a href="#">울진오시는길</a></li>
+                    </ul>
+                    <div class="adress">
+                        <span>36323 경상북도 울진군 울진읍 울진중앙로 121</span>
+                        <span>대표전화 054-782-1501</span>
+                        <span>팩스 054-789-6309</span>
+                    </div>
+                    <p>Copyright © 2017 Uljin-gun All right reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+</body>
+
+</html>

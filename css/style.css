@@ -4475,6 +4475,9 @@ a {
     .all-wrap .section2>.layout>.hot-place .h-place-logo h6 {
         display: none;
     }
+    .section4>.sec4-layout .sec4-title>em{
+        display: none;
+    }
 
     .all-wrap .section2>.layout>.hot-place {
         padding-top: 135px;

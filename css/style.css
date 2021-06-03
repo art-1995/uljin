@@ -3766,6 +3766,11 @@ a {
     }
 }
 
+@media(max-width : 920px){
+    .all-wrap .footer .f-top>.f-layout>.banner h2{
+        width: 11%;
+    }
+}
 
 @media(max-width : 860px) {
     .section4 .swiper-container3 .list .box {

@@ -16,7 +16,7 @@ $(document).ready(function () {
   function Box1__init() {
     var $itemBottomLine = $('.header-wrap > .menu > .item-bottom-line');
 
-    $('.header-wrap > .menu .main-menu > li').mouseenter(function () {
+    $('.header-wrap > .menu .main-menu > li > a').mouseenter(function () {
       var $this = $(this);
       var left = $this.position().left;
       var width = $this.width();
@@ -32,7 +32,7 @@ $(document).ready(function () {
       }, 300);
     });
 
-    $('.header-wrap > .menu .main-menu > li').eq(0).mouseenter();
+    $('.header-wrap > .menu .main-menu > li > a').eq(0).mouseenter();
   }
 
   Box1__init();

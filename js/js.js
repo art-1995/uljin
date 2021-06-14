@@ -65,6 +65,7 @@ $(document).ready(function () {
     if ($(".wrapper > .menu").eq(thisIndex).hasClass("active")) {
       $(".wrapper > .menu").removeClass("active");
       $(".wrapper").removeClass("active");
+      $("body").css({'overflow' : 'hidden', 'height' : '100vh'});
     } else {
       $(".wrapper").addClass("active");
       $(".wrapper > .menu").removeClass("active");
@@ -112,20 +113,6 @@ $(document).ready(function () {
 
   });
 
-  // var swiper = new Swiper(".swiper-container2", {
-  //   cssMode: true,
-  //   loop: true,
-  //   navigation: {
-  //     nextEl: ".swiper-button-next",
-  //     prevEl: ".swiper-button-prev"
-  //   },
-  //   pagination: {
-  //     el: ".swiper-pagination"
-  //   },
-  //   mousewheel: true,
-  //   keyboard: true
-  // });
-  /*유튜브 화살표 이미지&텍스트*/
 
   function SliderBox1__init() {
     const $swiperSlide = $('.slider-box-1 .swiper-slide');
@@ -388,3 +375,4 @@ $(document).ready(function () {
   });
 
 });
+
